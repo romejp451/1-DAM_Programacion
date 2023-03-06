@@ -14,7 +14,6 @@ public class Rectangulo {
     Rectangulo(int base, int altura){
         this.base= base;
         this.altura= altura;
-        this.area= (base*altura);
     };
     
     //SETTERS
@@ -28,7 +27,7 @@ public class Rectangulo {
     
     //GETTERS
     public int getArea(){
-        return this.area;
+        return this.area= (this.base*this.altura);
     };
     
     public int getBase(){
