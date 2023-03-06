@@ -1,0 +1,7 @@
+a) Cuando estás haciendo un programa tú solo y haces muchas clases en el mismo paquete, puedes utilizar el modificador por defecto para restringir el acceso a esas clases solo dentro del paquete. Esto puede ayudar a mantener una estructura organizada del código.
+
+b) Si estás haciendo una librería de clases para ponerla en Internet y que todo el mundo la use, probablemente querrás hacer que las clases públicas sean accesibles desde cualquier parte. Sin embargo, algunas clases internas de la librería que no deben ser accesibles desde fuera de la librería se pueden hacer con el modificador por defecto.
+
+c) Si le dejas a tu mejor amigo una clase que has hecho para que la use en su programa, no hay problema en utilizar el modificador por defecto. Si tu amigo no va a hacer modificaciones a la clase y solo la usará como está, entonces el modificador por defecto es suficiente para restringir el acceso a la clase solo dentro del mismo paquete.
+
+d) Si estás haciendo una clase y tienes compañeros que van a hacer clases en el mismo paquete, puedes utilizar el modificador por defecto para restringir el acceso a esa clase solo dentro del mismo paquete. Esto puede ayudar a mantener una estructura organizada del código y evitar que otros modifiquen la clase sin tu conocimiento.
