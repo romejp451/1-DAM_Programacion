@@ -17,12 +17,8 @@ public class TransporteAnimales extends Jaula{
         for (Animal leon : this.animales) {
             if (leon instanceof Leon) {
                 numLeon+=1;
-            }
-        }
-        for(Animal tigre : this.animales){
-            if (tigre instanceof Tigre) {
+            }else{
                 numTigre+=1;
-            }
         }
         if (numLeon <= 6 && numTigre == 0) {
             this.animales.remove(a);
