@@ -15,6 +15,6 @@ public interface FiguraGeometrica extends Coloreable{
     default Cuadrado crearCuadradoIgualArea(Point esquinaSuperiorizquierda){
         double area = this.getArea();
         double lado = Math.sqrt(area);
-        return new Cuadrado (esquinaSuperiorizquierda, (int)lado, Color.BLACK);
+        return new Cuadrado (esquinaSuperiorIzquierda, (int)lado, Color.BLACK);
     }
 }
