@@ -35,8 +35,8 @@ public class Triangulo implements Apoyable{
         double lado1 = getLongitud(vertices[0], vertices[1]);
         double lado2 = getLongitud(vertices[1], vertices[2]);
         double lado3 = getLongitud(vertices[2], vertices[0]);
-        double semiperimetro = (lado1 + lado1 + lado2) / 2;
-        double area = Math.sqrt(semiperimetro * (semiperimetro - lado1) * (semiperimetro - lado1) * (semiperimetro - lado2));
+        double semiperimetro = (lado1 + lado2 + lado3) / 2;
+        double area = Math.sqrt(semiperimetro * (semiperimetro - lado1) * (semiperimetro - lado2) * (semiperimetro - lado3));
         return (int)(2 * area / lado1);
     }
 
